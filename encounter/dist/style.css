@@ -1,0 +1,14 @@
+body {
+   font-family: 'Press Start 2P';
+    font-size: 20px;
+    background-color: #444444;
+    color: #00D500;
+}
+
+div {
+  animation: type 1s steps(60, end);
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+}
